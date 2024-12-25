@@ -1,0 +1,262 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #eee;
+	padding: 0.5rem 3rem 0.5rem 3rem;
+	align-items: center;
+	font-weight: bold;
+}
+
+.bx-border-right {
+	font-size: 3rem;
+	color: black;
+}
+.navbar-left {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+.more {
+	color: #ff764d;
+}
+.navbar-right {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+.navbar-right :first-child {
+	color: blue;
+	font-size: 1.5rem;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 120px;
+}
+.about-box {
+	display: flex;
+	padding: 1rem 3rem 1rem 3rem;
+	gap: 2rem;
+	font-weight: bold;
+}
+.about-box :first-child {
+	color: #ff764d;
+}
+.jumbotron {
+	color: #ff764d;
+	font-weight: bold;
+	font-size: 10rem;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	height: 510px;
+}
+.jumbotron-title {
+	position: absolute;
+	margin: 0;
+	top: 150px;
+}
+.jumbotron-img {
+	width: 70vw;
+}
+.paragraph-box {
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	margin: 50px 0 50px 0;
+	gap: 2rem;
+}
+.paragraph-principal {
+	font-size: 30px;
+	font-weight: bold;
+}
+.paragraph-principal span {
+	color: blue;
+	cursor: pointer;
+}
+.information-one {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: end;
+}
+.information-one-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.information-one-left img {
+	position: absolute;
+	width: 40vw;
+	height: 70vh;
+	left: 50px;
+}
+.information-one-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fbffa7;
+	width: 60vw;
+}
+.information-one-right img {
+	width: 30vw;
+	height: 50vh;
+}
+.video-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 50px 0 50px 0;
+}
+.information-two {
+	display: flex;
+	width: 100vw;
+	height: 130vh;
+	justify-content: start;
+}
+
+.information-two-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #b6ffc0;
+	width: 60vw;
+	gap: 2rem;
+}
+.information-two-left img {
+	width: 30vw;
+	height: 60vh;
+}
+.information-two-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.information-two-right img {
+	width: 30vw;
+	height: 100vh;
+	position: absolute;
+	right: 200px;
+}
+.information-three {
+	display: flex;
+	width: 100vw;
+	height: 130vh;
+	justify-content: center;
+}
+
+.information-three-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #d5b3ff;
+	width: 60vw;
+	gap: 2rem;
+}
+.information-three-center img {
+	position: absolute;
+}
+.information-three-center :first-child {
+	width: 40vw;
+	height: 60vh;
+	left: 50px;
+}
+
+.information-three-center :last-child {
+	width: 50vw;
+	height: 90vh;
+	right: 0;
+}
+.information-four {
+	display: flex;
+	width: 80vw;
+	height: 70vh;
+	justify-content: center;
+}
+.information-four-left {
+	width: 50%;
+}
+.information-four-left img {
+	width: 100vw;
+	height: 70vh;
+}
+.information-four-right {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: start;
+	background-color: #b1c5ff;
+	font-size: 2rem;
+	padding: 2rem;
+	width: 50%;
+	font-weight: bold;
+	padding: 0 100px 0 150px;
+}
+.information-four-right a {
+	color: blue;
+}
+footer {
+	border-top: 2px solid #eee;
+	width: 100%;
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+	margin: 80px 80px 80px 100px;
+	font-size: 20px;
+}
+.footer h2 {
+	font-size: 60px;
+	margin-bottom: 50px;
+}
+.footer-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: top;
+}
+.footer-container-element {
+	width: 33%;
+	height: 30vh;
+}
+.footer-icons {
+	font-size: 32px;
+}
+.input-email button {
+	background-color: blue;
+	height: 40px;
+	color: white;
+	padding: 0 12px 0 12px;
+	width: 28%;
+}
+.input-email input {
+	width: 70%;
+	height: 40px;
+	background-color: #eee;
+}
+.form-select {
+	width: 100%;
+}
+select {
+	width: 45%;
+	height: 30px;
+	background-color: #eee;
+}
+.footer .navbar {
+	font-size: 1rem;
+	border: none;
+	padding: 0;
+}
